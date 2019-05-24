@@ -18,6 +18,11 @@ module.exports = {
             typeName: 'Tag',
             route: '/tag/:id',
             create: true
+          },
+          category: {
+            typeName: 'Category',
+            route: '/category/:id',
+            create: true
           }
         }
       }

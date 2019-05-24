@@ -13,6 +13,7 @@
       <ul v-if="post.node.tags">
         <li v-for="tag in post.node.tags" :key="tag.id">{{ tag.title }}</li>
       </ul>
+      <p>カテゴリ: <span v-if="post.node.category">{{ post.node.category.title }}</span><span v-else>未設定</span></p>
     </div>
   </Layout>
 </template>

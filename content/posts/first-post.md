@@ -1,6 +1,5 @@
 ---
 title: Default Starterからブログを作成する
-category: Tech
 tags:
     - Gridsome
     - Netlify

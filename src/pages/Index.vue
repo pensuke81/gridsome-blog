@@ -30,6 +30,10 @@
           title
           path
         }
+        category {
+          id
+          title
+        }
         description
         content
       }

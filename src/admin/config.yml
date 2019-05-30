@@ -1,6 +1,7 @@
 backend:
-  name: github
-  repo: pensuke81/gridsome-blog
+  name: git-gateway
+  accept_roles:
+    - admin
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
